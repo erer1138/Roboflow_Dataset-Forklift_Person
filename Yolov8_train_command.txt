@@ -1,1 +1,0 @@
-yolo val model=yolov8n.pt data=coco8.yaml
