@@ -1,0 +1,7 @@
+#Yolov5
+python train.py --img 640 --epochs 200 --data data/data_forklift.yaml --cache ram --cache disk --weights last.pt
+
+
+
+#Yolov8
+yolo train model=last.pt data=data.yaml epochs=50 imgsz=640
